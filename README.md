@@ -1,24 +1,33 @@
 # pythonStudy
 《廖雪峰的官方网站——Python教程》
 ##Python简介
+
 略
+
 ##安装Python
+
 略
+
 ##第一个Python程序(01firstPython)
+
 ##Python基础(02pythonBasics)
+
 ###数据类型和变量
+
 ####数据类型
 - 整数
 - 浮点数
 - 字符串
 - 布尔值
 - 空值
+
 ####变量
 - 变量
     * 变量本身类型不固定的语言称之为动态语言，与之对应的是静态语言。静态语言在定义变量时必须指定变量类型，如果赋值的时候类型不匹配，就会报错。
 - 常量
     * 常量就是不能变的变量，比如常用的数学常数π就是一个常量。在Python中，通常用全部大写的变量名表示常量
 ###字符串和编码
+
 ####Python的字符串
 - 最新的Python 3版本中，字符串是以Unicode编码的，也就是说，Python的字符串支持多语言。
 ####格式化
@@ -34,15 +43,20 @@
 - format()
 - f-string
 ###使用list和tuple
+
 ####list
+
 ####tuple
+
 tuple和list非常类似，但是tuple一旦初始化就不能修改。
 ###条件判断
+
 ###循环
 - for循环
 - while循环
 - break退出循环
 - continue跳过当次循环
+
 ###使用dict和set
 - dict(=Java中的Map，使用键值key-value存储)
 - 和list比较，dict有以下几个特点：
@@ -51,13 +65,20 @@ tuple和list非常类似，但是tuple一旦初始化就不能修改。
 - 而list相反：
     * 查找和插入的时间随着元素的增加而增加；
     * 占用空间小，浪费内存很少。
+    
 ##函数(03function)
+
 ###调用函数
+
 ###定义函数
+
 ###函数的参数
 - 定义可变参数和关键字参数的语法：
     * args是可变参数，args接收的是一个tuple；
     * **kw是关键字参数，kw接收的是一个dict。
+    
 ###递归函数
+
 ##高级特性(04advancedFeatures)
+
 ###切片
