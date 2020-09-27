@@ -83,3 +83,13 @@ tuple和list非常类似，但是tuple一旦初始化就不能修改。
 ##高级特性(04advancedFeatures)
 
 ###切片
+
+###迭代
+
+###列表时生成
+
+###生成器
+
+###迭代器
+
+##函数式编程(functionProgram)
